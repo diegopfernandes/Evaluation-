@@ -7,6 +7,12 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		9B384FF21FD60F900046EEB0 /* Champagne & Limousines Bold.ttf in Resources */ = {isa = PBXBuildFile; fileRef = 9B384FEE1FD60F900046EEB0 /* Champagne & Limousines Bold.ttf */; };
+		9B384FF31FD60F900046EEB0 /* Champagne & Limousines Italic.ttf in Resources */ = {isa = PBXBuildFile; fileRef = 9B384FEF1FD60F900046EEB0 /* Champagne & Limousines Italic.ttf */; };
+		9B384FF41FD60F900046EEB0 /* Champagne & Limousines Bold Italic.ttf in Resources */ = {isa = PBXBuildFile; fileRef = 9B384FF01FD60F900046EEB0 /* Champagne & Limousines Bold Italic.ttf */; };
+		9B384FF51FD60F900046EEB0 /* Champagne & Limousines.ttf in Resources */ = {isa = PBXBuildFile; fileRef = 9B384FF11FD60F900046EEB0 /* Champagne & Limousines.ttf */; };
+		9B384FF81FD610850046EEB0 /* e+logo.png in Resources */ = {isa = PBXBuildFile; fileRef = 9B384FF61FD610850046EEB0 /* e+logo.png */; };
+		9B384FF91FD610850046EEB0 /* ev+logo.png in Resources */ = {isa = PBXBuildFile; fileRef = 9B384FF71FD610850046EEB0 /* ev+logo.png */; };
 		9BD244C01FCCE5170082C47F /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9BD244BF1FCCE5170082C47F /* AppDelegate.swift */; };
 		9BD244C21FCCE5170082C47F /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9BD244C11FCCE5170082C47F /* ViewController.swift */; };
 		9BD244C51FCCE5170082C47F /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 9BD244C31FCCE5170082C47F /* Main.storyboard */; };
@@ -17,6 +23,12 @@
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
+		9B384FEE1FD60F900046EEB0 /* Champagne & Limousines Bold.ttf */ = {isa = PBXFileReference; lastKnownFileType = file; name = "Champagne & Limousines Bold.ttf"; path = "../../../../../../Downloads/champagne_limousines/Champagne & Limousines Bold.ttf"; sourceTree = "<group>"; };
+		9B384FEF1FD60F900046EEB0 /* Champagne & Limousines Italic.ttf */ = {isa = PBXFileReference; lastKnownFileType = file; name = "Champagne & Limousines Italic.ttf"; path = "../../../../../../Downloads/champagne_limousines/Champagne & Limousines Italic.ttf"; sourceTree = "<group>"; };
+		9B384FF01FD60F900046EEB0 /* Champagne & Limousines Bold Italic.ttf */ = {isa = PBXFileReference; lastKnownFileType = file; name = "Champagne & Limousines Bold Italic.ttf"; path = "../../../../../../Downloads/champagne_limousines/Champagne & Limousines Bold Italic.ttf"; sourceTree = "<group>"; };
+		9B384FF11FD60F900046EEB0 /* Champagne & Limousines.ttf */ = {isa = PBXFileReference; lastKnownFileType = file; name = "Champagne & Limousines.ttf"; path = "../../../../../../Downloads/champagne_limousines/Champagne & Limousines.ttf"; sourceTree = "<group>"; };
+		9B384FF61FD610850046EEB0 /* e+logo.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "e+logo.png"; sourceTree = "<group>"; };
+		9B384FF71FD610850046EEB0 /* ev+logo.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "ev+logo.png"; sourceTree = "<group>"; };
 		9BD244BC1FCCE5170082C47F /* Evaluation+.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = "Evaluation+.app"; sourceTree = BUILT_PRODUCTS_DIR; };
 		9BD244BF1FCCE5170082C47F /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
 		9BD244C11FCCE5170082C47F /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
@@ -39,6 +51,26 @@
 /* End PBXFrameworksBuildPhase section */
 
 /* Begin PBXGroup section */
+		9B384FE81FD60F2B0046EEB0 /* Images */ = {
+			isa = PBXGroup;
+			children = (
+				9B384FF61FD610850046EEB0 /* e+logo.png */,
+				9B384FF71FD610850046EEB0 /* ev+logo.png */,
+			);
+			path = Images;
+			sourceTree = "<group>";
+		};
+		9B384FED1FD60F710046EEB0 /* Fonts */ = {
+			isa = PBXGroup;
+			children = (
+				9B384FF01FD60F900046EEB0 /* Champagne & Limousines Bold Italic.ttf */,
+				9B384FEE1FD60F900046EEB0 /* Champagne & Limousines Bold.ttf */,
+				9B384FEF1FD60F900046EEB0 /* Champagne & Limousines Italic.ttf */,
+				9B384FF11FD60F900046EEB0 /* Champagne & Limousines.ttf */,
+			);
+			path = Fonts;
+			sourceTree = "<group>";
+		};
 		9BD244B31FCCE5170082C47F = {
 			isa = PBXGroup;
 			children = (
@@ -58,6 +90,8 @@
 		9BD244BE1FCCE5170082C47F /* Evaluation+ */ = {
 			isa = PBXGroup;
 			children = (
+				9B384FED1FD60F710046EEB0 /* Fonts */,
+				9B384FE81FD60F2B0046EEB0 /* Images */,
 				9BD244D51FCCEA1F0082C47F /* Controllers */,
 				9BD244D31FCCE9E40082C47F /* Classes */,
 				9BD244C31FCCE5170082C47F /* Main.storyboard */,
@@ -147,7 +181,13 @@
 			files = (
 				9BD244CA1FCCE5170082C47F /* LaunchScreen.storyboard in Resources */,
 				9BD244C71FCCE5170082C47F /* Assets.xcassets in Resources */,
+				9B384FF41FD60F900046EEB0 /* Champagne & Limousines Bold Italic.ttf in Resources */,
 				9BD244C51FCCE5170082C47F /* Main.storyboard in Resources */,
+				9B384FF51FD60F900046EEB0 /* Champagne & Limousines.ttf in Resources */,
+				9B384FF31FD60F900046EEB0 /* Champagne & Limousines Italic.ttf in Resources */,
+				9B384FF91FD610850046EEB0 /* ev+logo.png in Resources */,
+				9B384FF81FD610850046EEB0 /* e+logo.png in Resources */,
+				9B384FF21FD60F900046EEB0 /* Champagne & Limousines Bold.ttf in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};

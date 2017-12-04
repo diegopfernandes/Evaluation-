@@ -57,14 +57,18 @@ UITableViewDelegate, UITextViewDelegate, UITextFieldDelegate {
     func tableView(_ tableView: UITableView, commit editingStyle:
         UITableViewCellEditingStyle, forRowAt indexPath: IndexPath) {
         if editingStyle == UITableViewCellEditingStyle.delete {
+            
             let name = [studentName](studentGrades.keys)[indexPath.row]
             studentGrades[name] = nil
+            
             userDefaultsObj.setKey(theValue: studentGrades as AnyObject, theKey:
-                "grade")
+                "grades")
             tableView.deleteRows(at: [indexPath as IndexPath], with:
                 UITableViewRowAnimation.automatic)
+             fillUpArray()
         }
     }
+
     //-----------------
     func loadUserDefaults() {
         if userDefaultsObj.doesKeyExist(theKey: "grades") {

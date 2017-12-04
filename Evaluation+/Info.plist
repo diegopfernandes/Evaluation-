@@ -37,8 +37,13 @@
 	<array>
 		<string>UIInterfaceOrientationPortrait</string>
 		<string>UIInterfaceOrientationPortraitUpsideDown</string>
-		<string>UIInterfaceOrientationLandscapeLeft</string>
-		<string>UIInterfaceOrientationLandscapeRight</string>
+	</array>
+	<key>UIAppFonts</key>
+	<array>
+		<string>Champagne &amp; Limousines</string>
+		<string>Champagne &amp; Limousines Italic</string>
+		<string>Champagne &amp; Limousines Bold Italic</string>
+		<string>Champagne &amp; Limousines Bold</string>
 	</array>
 </dict>
 </plist>
